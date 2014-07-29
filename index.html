@@ -1,104 +1,105 @@
 <!doctype html><html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Picture element</title>
-    <link rel="stylesheet" href="http://localhost/~bram/php/picture-srcset/assets/css/style.css">
+    <title>Picture-Element Test</title>
+    <link rel="stylesheet" href="http://atelierbram.github.io/picture-element-test/assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index, follow">
-    <meta name="description" content=" ... "/>
+    <meta name="description" content="Testing picture-element, with images in three sizes within a responsive grid, and Picturefill polyfill fall-back."/>
     <link rel="author" href="https://plus.google.com/+BramdeHaan/posts">
 
     <!--[if lt IE 9]><script src="/assets/js/lib/html5shiv.min.js"></script><![endif]-->
 <script>
   document.createElement( "picture" );
 </script>
-    <script src="http://localhost/~bram/php/picture-srcset/assets/js/lib/picturefill.min.js" async"></script>
+    <script src="http://atelierbram.github.io/picture-element-test/assets/js/lib/picturefill.min.js" async"></script>
 <!-- <script>picturefill();</script> -->
   </head>
   <body>
 
-<header class="container"><h1>Picture Element Test</h1><!-- <p>Adaptive Images in a Responsive Context</p>--></header>
+<header class="container"><h1>Picture Element Test</h1></header>
+
 <div class="container content">
 
 <ul class="grid-list">
   <li>
     <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg" media="(min-width: 800px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg" media="(min-width: 500px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg" media="(min-width: 800px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg" media="(min-width: 500px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg 1200w,http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg 800w,http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg 500w" sizes="100%">
+    <img srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg 1200w,http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg 800w,http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg 500w" sizes="100%">
     </picture>
   </li>
   <li>
     <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg" media="(min-width: 800px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg" media="(min-width: 500px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg" media="(min-width: 800px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg" media="(min-width: 500px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg 1200w,http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg 800w,http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg 500w" sizes="100%">
+    <img srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg 1200w,http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg 800w,http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg 500w" sizes="100%">
     </picture>
   </li>
   <li>
     <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg" media="(min-width: 800px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg" media="(min-width: 500px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg" media="(min-width: 800px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg" media="(min-width: 500px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg 1200w,http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg 800w,http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg 500w" sizes="100%">
+    <img srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg 1200w,http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg 800w,http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg 500w" sizes="100%">
     </picture>
   </li>
   <li>
     <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg" media="(min-width: 800px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg" media="(min-width: 500px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg" media="(min-width: 800px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg" media="(min-width: 500px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg 1200w,http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg 800w,http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg 500w" sizes="100%">
+    <img srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg 1200w,http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg 800w,http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg 500w" sizes="100%">
     </picture>
   </li>
   <li>
     <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg" media="(min-width: 800px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg" media="(min-width: 500px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg" media="(min-width: 800px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg" media="(min-width: 500px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg 1200w,http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg 800w,http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg 500w" sizes="100%">
+    <img srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg 1200w,http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg 800w,http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg 500w" sizes="100%">
     </picture>
   </li>
   <li>
     <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg" media="(min-width: 800px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg" media="(min-width: 500px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg" media="(min-width: 800px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg" media="(min-width: 500px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg 1200w,http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg 800w,http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg 500w" sizes="100%">
+    <img srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg 1200w,http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg 800w,http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg 500w" sizes="100%">
     </picture>
   </li>
   <li>
     <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg" media="(min-width: 800px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg" media="(min-width: 500px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg" media="(min-width: 800px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg" media="(min-width: 500px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg 1200w,http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg 800w,http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg 500w" sizes="100%">
+    <img srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg 1200w,http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg 800w,http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg 500w" sizes="100%">
     </picture>
   </li>
   <li>
     <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg" media="(min-width: 800px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg" media="(min-width: 500px)">
-    <source srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg" media="(min-width: 800px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg" media="(min-width: 500px)">
+    <source srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="http://localhost/~bram/php/picture-srcset/assets/img/img_large.jpg 1200w,http://localhost/~bram/php/picture-srcset/assets/img/img_medium.jpg 800w,http://localhost/~bram/php/picture-srcset/assets/img/img_small.jpg 500w" sizes="100%">
+    <img srcset="http://atelierbram.github.io/picture-element-test/assets/img/img_large.jpg 1200w,http://atelierbram.github.io/picture-element-test/assets/img/img_medium.jpg 800w,http://atelierbram.github.io/picture-element-test/assets/img/img_small.jpg 500w" sizes="100%">
     </picture>
   </li>
 
@@ -107,9 +108,4 @@
 <p>Support of <a href="http://caniuse.com/#feat=picture"> browsers which natively support the picture element</a></p>
 </div>
 
-<footer><small>a demo by <a href="a!">Bram de Haan</a> &middot; <a href="#!">on Codepen</a></small></footer>
-<!-- large http://placekitten.com/480/320 -->
-<!-- medium http://placekitten.com/384/256 -->
-<!-- small http://placekitten.com/192/128 -->
-  </body>
-</html>
+<footer><small>a demo by <a href="http://atelierbramdehaan.nl">Bram de Haan</a> &middot; <a href="http://atelierbram.github.io/picture-element-test">on Github</a> &middot; <a href="http://codepen.io/atelierbram/pen/kgvmn/">on Codepen</a></small></footer></body></html>
