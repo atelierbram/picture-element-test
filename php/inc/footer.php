@@ -1,1 +1,1 @@
-<?php ?><footer><small>a demo by <a href="http://atelierbramdehaan.nl">Bram de Haan</a> &middot; <a href="http://atelierbram.github.io/picture-element-test">on Github</a> &middot; <a href="#!">on Codepen</a></small></footer></body></html><?php ?>
+<?php ?><footer><small>a demo by <a href="http://atelierbramdehaan.nl">Bram de Haan</a> &middot; <a href="http://atelierbram.github.io/picture-element-test">on Github</a> &middot; <a href="http://codepen.io/atelierbram/pen/kgvmn/">on Codepen</a></small></footer></body></html><?php ?>
