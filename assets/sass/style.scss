@@ -1,0 +1,102 @@
+*,*::before,*::after {
+  margin: 0;
+  padding:0;
+  box-sizing: inherit;
+}
+picture {
+  display: block;
+}
+// stolen from http://codepen.io/heydon/pen/bcdrl/
+// choose a number of columns
+$cols: 3;
+
+.grid-list li {
+  // set up the basic item widths
+  width: 100% / $cols;
+}
+
+// this for loop does everything else using nth-child,
+// nth-last-child and general siblings
+
+@for $i from 1 through $cols {
+ .grid-list li:nth-child(#{$cols}n+1):nth-last-child(#{$i})  {
+    width: 100% / $i;
+    & ~ li {
+      width: 100% / $i;
+    }
+  }
+}
+
+html,
+body {
+  height: 100%;
+  background: #ccc;
+}
+body {
+  font: 100%/1.5 AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", sans-serif;
+  color: #fff;
+  min-height: 100%;
+  position: relative;
+  text-rendering: optimizeLegibility;
+}
+.container {
+  padding: 1em;
+  max-width: 60em;
+  margin: 0 auto;
+  background: #222;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.grid-list img {
+  display: block;
+  margin: 0 auto;
+}
+
+header,
+.content p {
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: -1px;
+}
+h1 {
+  font-family: AvenirNextCondensed-UltraLight, AvenirNextCondensed-DemiBold, Corbel, "Lucida Grande","Trebuchet Ms", sans-serif;
+  font-size: 3em;
+  font-weight: normal;
+}
+p {
+  font-family: AvenirNext-UltraLight, AvenirNextCondensed-DemiBold, Corbel, "Lucida Grande","Trebuchet Ms", sans-serif;
+  font-size: 1.25em;
+}
+a {
+  color: #005066;
+  text-decoration: none;
+}
+a:hover {
+  color: #079;
+  text-decoration: underline;
+}
+.content a {
+  color: #0ac;
+}
+.grid-list {
+  overflow: auto;
+  box-sizing: border-box;
+  margin: 0 auto 2em;
+}
+.grid-list li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background: #333;
+  color: #111;
+  outline: 2px solid #222;
+}
+footer {
+  font-family: AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", sans-serif;
+  padding: 1em;
+  text-align: center;
+  color: #111;
+}
+
