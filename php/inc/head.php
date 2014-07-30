@@ -12,7 +12,7 @@
 <script>
   document.createElement( "picture" );
 </script>
-    <script src="<?php echo $rootUrl ?>/assets/js/lib/picturefill.min.js" async"></script>
+    <script src="<?php echo $rootUrl ?>/assets/js/lib/picturefill.min.js" async></script>
 <!-- <script>picturefill();</script> -->
   </head>
   <body>
