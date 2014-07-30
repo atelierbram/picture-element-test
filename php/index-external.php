@@ -18,7 +18,7 @@ include "inc/head.php";
     <source srcset="<?php echo $image_medium ?>" media="(min-width: 500px)">
     <source srcset="<?php echo $image_small ?>">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $image_large ?> 1200w,<?php echo $image_medium ?> 800w,<?php echo $image_small ?> 500w" sizes="100%">
+    <img srcset="<?php echo $image_large ?> 480w,<?php echo $image_medium ?> 384w,<?php echo $image_small ?> 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -28,7 +28,7 @@ include "inc/head.php";
     <source srcset="<?php echo $image_medium ?>" media="(min-width: 500px)">
     <source srcset="<?php echo $image_small ?>">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $image_large ?> 1200w,<?php echo $image_medium ?> 800w,<?php echo $image_small ?> 500w" sizes="100%">
+    <img srcset="<?php echo $image_large ?> 480w,<?php echo $image_medium ?> 384w,<?php echo $image_small ?> 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -38,7 +38,7 @@ include "inc/head.php";
     <source srcset="<?php echo $image_medium ?>" media="(min-width: 500px)">
     <source srcset="<?php echo $image_small ?>">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $image_large ?> 1200w,<?php echo $image_medium ?> 800w,<?php echo $image_small ?> 500w" sizes="100%">
+    <img srcset="<?php echo $image_large ?> 480w,<?php echo $image_medium ?> 384w,<?php echo $image_small ?> 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -48,7 +48,7 @@ include "inc/head.php";
     <source srcset="<?php echo $image_medium ?>" media="(min-width: 500px)">
     <source srcset="<?php echo $image_small ?>">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $image_large ?> 1200w,<?php echo $image_medium ?> 800w,<?php echo $image_small ?> 500w" sizes="100%">
+    <img srcset="<?php echo $image_large ?> 480w,<?php echo $image_medium ?> 384w,<?php echo $image_small ?> 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -58,7 +58,7 @@ include "inc/head.php";
     <source srcset="<?php echo $image_medium ?>" media="(min-width: 500px)">
     <source srcset="<?php echo $image_small ?>">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $image_large ?> 1200w,<?php echo $image_medium ?> 800w,<?php echo $image_small ?> 500w" sizes="100%">
+    <img srcset="<?php echo $image_large ?> 480w,<?php echo $image_medium ?> 384w,<?php echo $image_small ?> 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -68,7 +68,7 @@ include "inc/head.php";
     <source srcset="<?php echo $image_medium ?>" media="(min-width: 500px)">
     <source srcset="<?php echo $image_small ?>">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $image_large ?> 1200w,<?php echo $image_medium ?> 800w,<?php echo $image_small ?> 500w" sizes="100%">
+    <img srcset="<?php echo $image_large ?> 480w,<?php echo $image_medium ?> 384w,<?php echo $image_small ?> 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -78,7 +78,7 @@ include "inc/head.php";
     <source srcset="<?php echo $image_medium ?>" media="(min-width: 500px)">
     <source srcset="<?php echo $image_small ?>">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $image_large ?> 1200w,<?php echo $image_medium ?> 800w,<?php echo $image_small ?> 500w" sizes="100%">
+    <img srcset="<?php echo $image_large ?> 480w,<?php echo $image_medium ?> 384w,<?php echo $image_small ?> 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -88,7 +88,7 @@ include "inc/head.php";
     <source srcset="<?php echo $image_medium ?>" media="(min-width: 500px)">
     <source srcset="<?php echo $image_small ?>">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $image_large ?> 1200w,<?php echo $image_medium ?> 800w,<?php echo $image_small ?> 500w" sizes="100%">
+    <img srcset="<?php echo $image_large ?> 480w,<?php echo $image_medium ?> 384w,<?php echo $image_small ?> 192w," sizes="100%" alt="">
     </picture>
   </li>
 

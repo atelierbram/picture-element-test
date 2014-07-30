@@ -18,7 +18,7 @@ include "inc/head.php";
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg" media="(min-width: 500px)">
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 1200w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 800w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 500w" sizes="100%">
+    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 480w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 384w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -28,7 +28,7 @@ include "inc/head.php";
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg" media="(min-width: 500px)">
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 1200w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 800w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 500w" sizes="100%">
+    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 480w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 384w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -38,7 +38,7 @@ include "inc/head.php";
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg" media="(min-width: 500px)">
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 1200w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 800w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 500w" sizes="100%">
+    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 480w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 384w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -48,7 +48,7 @@ include "inc/head.php";
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg" media="(min-width: 500px)">
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 1200w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 800w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 500w" sizes="100%">
+    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 480w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 384w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -58,7 +58,7 @@ include "inc/head.php";
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg" media="(min-width: 500px)">
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 1200w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 800w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 500w" sizes="100%">
+    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 480w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 384w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -68,7 +68,7 @@ include "inc/head.php";
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg" media="(min-width: 500px)">
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 1200w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 800w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 500w" sizes="100%">
+    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 480w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 384w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -78,7 +78,7 @@ include "inc/head.php";
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg" media="(min-width: 500px)">
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 1200w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 800w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 500w" sizes="100%">
+    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 480w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 384w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 192w," sizes="100%" alt="">
     </picture>
   </li>
   <li>
@@ -88,7 +88,7 @@ include "inc/head.php";
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg" media="(min-width: 500px)">
     <source srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 1200w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 800w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 500w" sizes="100%">
+    <img srcset="<?php echo $rootUrl ?>/assets/img/img<?php echo $image_large ?>.jpg 480w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_medium ?>.jpg 384w,<?php echo $rootUrl ?>/assets/img/img<?php echo $image_small ?>.jpg 192w," sizes="100%" alt="">
     </picture>
   </li>
 
